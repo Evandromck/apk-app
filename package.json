@@ -1,0 +1,35 @@
+{
+  "name": "emerj-apk",
+  "version": "1.0.0",
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web",
+    "eject": "expo eject",
+    "test": "jest --watchAll"
+  },
+  "jest": {
+    "preset": "jest-expo"
+  },
+  "dependencies": {
+    "expo": "~47.0.6",
+    "expo-status-bar": "~1.4.2",
+    "expo-updates": "~0.15.5",   
+    "react": "18.1.0",
+    "react-native": "0.70.5" 
+  },
+  
+  "devDependencies": {
+    "@babel/core": "^7.12.9",
+    "@types/react": "^18.0.25",
+    "@types/react-native": "^0.70.6",
+    "jest": "^29.3.1",
+    "jest-expo": "^47.0.1",
+    "json-server": "^0.17.1",
+    "react-test-renderer": "^18.2.0",
+    "typescript": "^4.9.3"
+  },
+  "private": true
+}
