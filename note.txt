@@ -1,0 +1,9 @@
+1 - npm install --global yarn
+2 - npm i -g expo-cli
+3 - yarn
+
+4 - npm install -g eas-cli      // build para o apk
+
+5 - para remover com o yarn( yarn remove)
+
+6 npx expo install ( packege ) // para instalar junto com o expo 
